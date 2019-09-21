@@ -26,17 +26,16 @@
             android:layout_marginStart="8dp"/>
     <Button
             android:text="Чётное"
-            android:onClick="chet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="310dp"
             android:id="@+id/button_chet" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="36dp"
-            android:layout_marginStart="36dp"/>
+            android:layout_marginStart="36dp" tools:ignore="MissingConstraints"/>
     <Button
             android:text="Нечётное"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="310dp"
             android:id="@+id/button_nechet" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="36dp"
-            android:layout_marginRight="36dp"
+            android:layout_marginRight="36dp" tools:ignore="MissingConstraints"
     />
     <TextView
             android:text="0"
@@ -44,11 +43,11 @@
             android:textColor="@color/colorAccent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="317dp"
-            tools:layout_editor_absoluteX="197dp" android:id="@+id/resultNumber"/>
+            tools:layout_editor_absoluteX="197dp" android:id="@+id/resultNumber" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Результат"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="372dp"
-            tools:layout_editor_absoluteX="175dp" android:id="@+id/result"/>
+            tools:layout_editor_absoluteX="175dp" android:id="@+id/result" tools:ignore="MissingConstraints"/>
 
 </android.support.constraint.ConstraintLayout>
